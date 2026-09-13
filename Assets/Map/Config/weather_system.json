@@ -1,0 +1,58 @@
+{
+  "weather_system": {
+    "regions": [
+      {
+        "name": "Northern Region (Mwanza-Shinyanga)",
+        "sections": ["S01", "S02", "S03"],
+        "climate": "tropical_savanna",
+        "rainy_season": "November-May",
+        "dry_season": "June-October",
+        "rain_probability": 0.4,
+        "visibility_rain": 50,
+        "visibility_clear": 500
+      },
+      {
+        "name": "Central Region (Tinde-Singida)",
+        "sections": ["S04", "S05", "S06", "S07"],
+        "climate": "highland_plateau",
+        "rainy_season": "November-March",
+        "dry_season": "June-October",
+        "rain_probability": 0.35,
+        "visibility_rain": 75,
+        "visibility_clear": 600,
+        "wind_effect": 0.3
+      },
+      {
+        "name": "Southern Region (Dodoma-Dar)",
+        "sections": ["S08", "S09", "S10"],
+        "climate": "subtropical_coastal",
+        "rainy_season": "November-April",
+        "dry_season": "May-October",
+        "rain_probability": 0.45,
+        "visibility_rain": 40,
+        "visibility_clear": 550,
+        "humidity_high": true
+      }
+    ],
+    "weather_effects": {
+      "rain": {
+        "intensity_scale": 1.0,
+        "road_grip_reduction": 0.85,
+        "braking_distance_increase": 1.3,
+        "engine_sound_muffled": true
+      },
+      "fog": {
+        "enabled_in_rain": true,
+        "density_light": 0.1,
+        "density_heavy": 0.3,
+        "visibility_reduction": 0.6
+      },
+      "wind": {
+        "speed_mph_low": 5,
+        "speed_mph_high": 20,
+        "affects_large_vehicles": true,
+        "sway_intensity": 0.2
+      }
+    }
+  }
+}

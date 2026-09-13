@@ -1,0 +1,47 @@
+{
+  "version": "1.0.0",
+  "game_compatibility": "BUSSID 3.9+",
+  "unity_version": "2019.4.40f1",
+  "map_metadata": {
+    "name": "Mwanza → Dar es Salaam",
+    "region": "Tanzania",
+    "real_world_distance_km": 1020,
+    "in_game_distance_km": 102,
+    "scale": "1:10",
+    "total_waypoints": 12,
+    "total_sections": 10
+  },
+  "assets": {
+    "total_prefabs": 21,
+    "total_buildings": 414,
+    "total_vegetation": 2500,
+    "total_spawn_points": 6,
+    "total_restore_points": 7,
+    "total_traffic_checkpoints": 6,
+    "total_poi": 7
+  },
+  "features": {
+    "dynamic_traffic": true,
+    "day_night_cycle": true,
+    "weather_system": true,
+    "police_system": true,
+    "vehicle_physics": true,
+    "audio_system": true,
+    "mission_system": true,
+    "poi_system": true,
+    "difficulty_settings": "4_levels"
+  },
+  "performance": {
+    "target_fps_high_end": 60,
+    "target_fps_mid_range": 30,
+    "target_fps_low_end": 20,
+    "draw_distance_m": 500,
+    "lod_levels": 3,
+    "estimated_file_size_mb": 450
+  },
+  "content_rating": "PEGI 3",
+  "supported_languages": ["English", "Swahili"],
+  "author": "WakishuaTza",
+  "release_date": "2026-09-13",
+  "website": "https://github.com/WakishuaTza/BUSSID-Mwanza-Dar-Mod"
+}

@@ -1,0 +1,26 @@
+{
+  "lighting_config": {
+    "day_cycle": {
+      "sunrise": "06:00",
+      "sunset": "18:30",
+      "day_brightness": 1.0,
+      "day_ambient_light": 0.8
+    },
+    "night_cycle": {
+      "start": "19:00",
+      "end": "05:59",
+      "night_brightness": 0.3,
+      "night_ambient_light": 0.2
+    },
+    "street_lights": {
+      "enabled": true,
+      "intensity_night": 0.7,
+      "color_temperature": "warm",
+      "spacing_m": 50
+    },
+    "headlight_requirement": {
+      "enabled_at": "18:00",
+      "required_at": "20:00"
+    }
+  }
+}

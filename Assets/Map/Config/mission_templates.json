@@ -1,0 +1,68 @@
+{
+  "mission_templates": {
+    "standard_delivery": {
+      "id": "mission_001",
+      "name": "Standard Cargo Delivery",
+      "route_type": "point_to_point",
+      "distance_km": "variable",
+      "time_limit_minutes": "variable",
+      "cargo_type": "general",
+      "cargo_weight_tons": "0.5-5",
+      "reward_base": 5000,
+      "reward_per_km": 500,
+      "penalty_late_per_minute": 100
+    },
+    "passenger_express": {
+      "id": "mission_002",
+      "name": "Passenger Express Service",
+      "route_type": "intercity",
+      "distance_km": "15-102",
+      "time_limit_minutes": "strict",
+      "passenger_count": "20-50",
+      "stops": "2-4",
+      "reward_base": 8000,
+      "reward_per_km": 200,
+      "penalty_late_per_minute": 200,
+      "passenger_satisfaction_factor": true
+    },
+    "heavy_freight": {
+      "id": "mission_003",
+      "name": "Heavy Freight Transport",
+      "route_type": "specialized",
+      "distance_km": "20-102",
+      "time_limit_minutes": "moderate",
+      "cargo_type": "heavy_goods",
+      "cargo_weight_tons": "8-18",
+      "vehicle_required": "truck",
+      "reward_base": 15000,
+      "reward_per_km": 800,
+      "penalty_cargo_damage": 5000,
+      "toll_charges_included": true
+    },
+    "night_route": {
+      "id": "mission_004",
+      "name": "Night Long-Distance Run",
+      "route_type": "long_haul",
+      "time_window": "20:00-06:00",
+      "distance_km": "50-102",
+      "fatigue_factor": true,
+      "vehicle_headlights_required": true,
+      "reward_multiplier": 1.5,
+      "reward_base": 10000,
+      "bonus_on_time": 2000
+    },
+    "emergency_medical": {
+      "id": "mission_005",
+      "name": "Medical Emergency Transport",
+      "route_type": "urgent",
+      "distance_km": "variable",
+      "time_limit_minutes": "strict",
+      "speed_requirement_kmh": "min_80",
+      "cargo_type": "medical_emergency",
+      "vehicle_required": "ambulance_or_van",
+      "reward_base": 12000,
+      "reward_per_km": 600,
+      "penalty_late_per_minute": 500
+    }
+  }
+}

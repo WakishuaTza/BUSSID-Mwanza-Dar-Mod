@@ -1,0 +1,83 @@
+{
+  "poi_system": {
+    "point_of_interest": [
+      {
+        "id": "poi_001",
+        "name": "Mwanza Central Bus Station",
+        "section": "S01",
+        "category": "transport_hub",
+        "coordinates": {"x": 151.3, "y": 130.8},
+        "services": ["fuel", "food", "restroom", "repair"],
+        "rating": 4.2,
+        "rest_stop": true,
+        "rest_duration_minutes": 30
+      },
+      {
+        "id": "poi_002",
+        "name": "Misungwi Rest Stop",
+        "section": "S02",
+        "category": "rest_area",
+        "coordinates": {"x": 180, "y": 170},
+        "services": ["water", "restroom", "shade"],
+        "rating": 3.5,
+        "rest_stop": true,
+        "rest_duration_minutes": 15
+      },
+      {
+        "id": "poi_003",
+        "name": "Shinyanga Market Center",
+        "section": "S03",
+        "category": "market",
+        "coordinates": {"x": 223.4, "y": 247.3},
+        "services": ["food", "fuel", "vehicle_parts"],
+        "rating": 3.8,
+        "rest_stop": true,
+        "rest_duration_minutes": 25
+      },
+      {
+        "id": "poi_004",
+        "name": "Singida Transport Hub",
+        "section": "S07",
+        "category": "transport_hub",
+        "coordinates": {"x": 412.7, "y": 364.7},
+        "services": ["fuel", "food", "restroom", "repair", "hotel"],
+        "rating": 4.1,
+        "rest_stop": true,
+        "rest_duration_minutes": 45
+      },
+      {
+        "id": "poi_005",
+        "name": "Dodoma Government Area",
+        "section": "S08",
+        "category": "administrative",
+        "coordinates": {"x": 555.6, "y": 501.6},
+        "services": ["fuel", "food", "restroom", "repair", "hotel"],
+        "rating": 4.0,
+        "rest_stop": true,
+        "rest_duration_minutes": 60
+      },
+      {
+        "id": "poi_006",
+        "name": "Morogoro Highway Rest Area",
+        "section": "S09",
+        "category": "rest_area",
+        "coordinates": {"x": 827.7, "y": 569.2},
+        "services": ["water", "restroom", "food", "fuel"],
+        "rating": 3.9,
+        "rest_stop": true,
+        "rest_duration_minutes": 20
+      },
+      {
+        "id": "poi_007",
+        "name": "Dar es Salaam Central Terminal",
+        "section": "S10",
+        "category": "transport_hub",
+        "coordinates": {"x": 1048.7, "y": 565.6},
+        "services": ["fuel", "food", "restroom", "repair", "hotel", "bank"],
+        "rating": 4.5,
+        "rest_stop": true,
+        "rest_duration_minutes": 45
+      }
+    ]
+  }
+}

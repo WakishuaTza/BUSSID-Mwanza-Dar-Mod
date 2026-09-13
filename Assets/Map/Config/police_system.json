@@ -1,0 +1,92 @@
+{
+  "police_patrol": {
+    "enabled": true,
+    "checkpoints": [
+      {
+        "id": 1,
+        "name": "Misungwi Checkpoint",
+        "section": "S02",
+        "position_km": 8.5,
+        "type": "speed_enforcement",
+        "speed_limit_kmh": 60,
+        "fine_speeding": 50000,
+        "active_hours": "06:00-22:00",
+        "active_days": "all"
+      },
+      {
+        "id": 2,
+        "name": "Shinyanga Police Post",
+        "section": "S03",
+        "position_km": 19.7,
+        "type": "random_inspection",
+        "inspection_probability": 0.3,
+        "fine_no_license": 100000,
+        "fine_no_documents": 75000,
+        "active_hours": "24:00",
+        "active_days": "all"
+      },
+      {
+        "id": 3,
+        "name": "Singida Toll Gate",
+        "section": "S07",
+        "position_km": 53.2,
+        "type": "toll_collection",
+        "toll_amount": 3500,
+        "payment_required": true,
+        "active_hours": "24:00",
+        "active_days": "all"
+      },
+      {
+        "id": 4,
+        "name": "Dodoma North Checkpoint",
+        "section": "S08",
+        "position_km": 60.8,
+        "type": "speed_enforcement",
+        "speed_limit_kmh": 50,
+        "fine_speeding": 50000,
+        "active_hours": "07:00-19:00",
+        "active_days": "weekdays"
+      },
+      {
+        "id": 5,
+        "name": "Morogoro Weigh Station",
+        "section": "S09",
+        "position_km": 81.2,
+        "type": "weight_check",
+        "weight_limit_tons": 18,
+        "fine_overweight": 200000,
+        "active_hours": "06:00-18:00",
+        "active_days": "all"
+      },
+      {
+        "id": 6,
+        "name": "Chalinze Final Checkpoint",
+        "section": "S10",
+        "position_km": 97.5,
+        "type": "random_inspection",
+        "inspection_probability": 0.2,
+        "active_hours": "24:00",
+        "active_days": "all"
+      }
+    ]
+  },
+  "traffic_rules": {
+    "speed_limits": {
+      "residential_area": 40,
+      "town_center": 50,
+      "highway_standard": 100,
+      "highway_school_zone": 40,
+      "sharp_curves": 50,
+      "mountainous_descent": 60
+    },
+    "penalties": {
+      "speeding_1_20kmh_over": 25000,
+      "speeding_21_40kmh_over": 50000,
+      "speeding_40kmh_plus_over": 100000,
+      "wrong_lane": 30000,
+      "no_headlights_night": 25000,
+      "hit_and_run": 500000,
+      "reckless_driving": 150000
+    }
+  }
+}

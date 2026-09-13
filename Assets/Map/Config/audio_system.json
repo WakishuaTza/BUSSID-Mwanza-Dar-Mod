@@ -1,0 +1,70 @@
+{
+  "audio_system": {
+    "engine_sounds": {
+      "heavy_bus": {
+        "idle_rpm": 600,
+        "max_rpm": 3000,
+        "sound_profile": "diesel_2.0l",
+        "vibration_intensity": 0.6
+      },
+      "small_bus": {
+        "idle_rpm": 800,
+        "max_rpm": 4000,
+        "sound_profile": "petrol_1.5l",
+        "vibration_intensity": 0.4
+      }
+    },
+    "ambient_sounds": {
+      "regions": [
+        {
+          "section": "S01-S03",
+          "ambient": ["birds_savanna", "wind_grassland", "distant_traffic"],
+          "volume": 0.4,
+          "enabled_time": "day"
+        },
+        {
+          "section": "S04-S07",
+          "ambient": ["wind_highland", "distant_thunder", "forest_sounds"],
+          "volume": 0.35,
+          "enabled_time": "day"
+        },
+        {
+          "section": "S08-S10",
+          "ambient": ["urban_traffic", "construction_sounds", "coast_wind"],
+          "volume": 0.5,
+          "enabled_time": "day"
+        }
+      ]
+    },
+    "road_noise": {
+      "tire_road_noise": {
+        "enabled": true,
+        "frequency_response": "road_dependent",
+        "intensity_wet": 1.3,
+        "intensity_damaged": 1.5
+      },
+      "wind_noise": {
+        "enabled": true,
+        "speed_threshold_mph": 30,
+        "max_intensity": 0.8
+      }
+    },
+    "warning_sounds": {
+      "lane_departure_warning": {
+        "enabled": true,
+        "sound": "beep_warning",
+        "frequency_hz": 1000
+      },
+      "collision_warning": {
+        "enabled": true,
+        "sound": "alarm_high_pitch",
+        "frequency_hz": 1500
+      },
+      "speed_limiter": {
+        "enabled": true,
+        "warning_at_kmh": 90,
+        "sound": "soft_chime"
+      }
+    }
+  }
+}

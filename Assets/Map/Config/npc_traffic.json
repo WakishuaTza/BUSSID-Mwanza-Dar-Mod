@@ -1,0 +1,82 @@
+{
+  "npc_traffic": {
+    "vehicle_pool": {
+      "heavy_truck": {
+        "percentage": 15,
+        "speed_kmh_avg": 70,
+        "acceleration": 0.8,
+        "size_class": "large"
+      },
+      "coach_bus": {
+        "percentage": 20,
+        "speed_kmh_avg": 75,
+        "acceleration": 0.7,
+        "size_class": "large"
+      },
+      "minibus": {
+        "percentage": 25,
+        "speed_kmh_avg": 80,
+        "acceleration": 1.0,
+        "size_class": "medium"
+      },
+      "sedan": {
+        "percentage": 25,
+        "speed_kmh_avg": 85,
+        "acceleration": 1.2,
+        "size_class": "small"
+      },
+      "suv": {
+        "percentage": 15,
+        "speed_kmh_avg": 80,
+        "acceleration": 1.1,
+        "size_class": "medium"
+      }
+    },
+    "traffic_density": {
+      "day_peak_hours": {
+        "time": ["06:00-09:00", "16:00-19:00"],
+        "vehicles_per_km": 15,
+        "spawn_interval_seconds": 5
+      },
+      "day_normal": {
+        "time": ["09:00-16:00"],
+        "vehicles_per_km": 8,
+        "spawn_interval_seconds": 10
+      },
+      "evening": {
+        "time": ["19:00-22:00"],
+        "vehicles_per_km": 5,
+        "spawn_interval_seconds": 15
+      },
+      "night": {
+        "time": ["22:00-06:00"],
+        "vehicles_per_km": 2,
+        "spawn_interval_seconds": 30
+      }
+    },
+    "ai_behavior": {
+      "lane_changing": {
+        "enabled": true,
+        "probability_per_km": 0.3,
+        "look_ahead_distance_m": 200
+      },
+      "overtaking": {
+        "enabled": true,
+        "probability_per_km": 0.2,
+        "requires_clear_road": true,
+        "duration_seconds": 15
+      },
+      "accident_risk": {
+        "enabled": true,
+        "probability_per_hour": 0.05,
+        "usually_blocks_lane": true,
+        "duration_minutes": 10
+      },
+      "emergency_vehicles": {
+        "enabled": true,
+        "probability_per_hour": 0.1,
+        "priority_traffic": true
+      }
+    }
+  }
+}

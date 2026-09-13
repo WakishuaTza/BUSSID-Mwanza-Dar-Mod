@@ -1,0 +1,69 @@
+{
+  "vehicle_physics": {
+    "road_conditions": {
+      "asphalt_standard": {
+        "grip_coefficient": 1.0,
+        "friction": 0.9,
+        "wear_rate": 1.0
+      },
+      "asphalt_wet": {
+        "grip_coefficient": 0.65,
+        "friction": 0.6,
+        "wear_rate": 0.8,
+        "skid_resistance": 0.4
+      },
+      "asphalt_damaged": {
+        "grip_coefficient": 0.85,
+        "friction": 0.75,
+        "wear_rate": 1.5,
+        "vibration": true
+      }
+    },
+    "terrain_elevation": {
+      "flat": {
+        "sections": ["S01", "S02"],
+        "grade_percent": 0.5,
+        "engine_load": 0.3
+      },
+      "rolling": {
+        "sections": ["S03", "S04", "S07", "S08"],
+        "grade_percent": 2.5,
+        "engine_load": 0.5
+      },
+      "mountainous": {
+        "sections": ["S05", "S06", "S09"],
+        "grade_percent": 5.0,
+        "engine_load": 0.85,
+        "steep_curve_warning": true,
+        "brake_fade_risk": true
+      },
+      "descending": {
+        "sections": ["S09", "S10"],
+        "grade_percent": -3.5,
+        "engine_braking_required": true,
+        "brake_temperature_warning": true
+      }
+    },
+    "curve_dynamics": {
+      "sharp_curves": {
+        "sections": ["S06", "S09"],
+        "radius_m": 50,
+        "bank_angle": 2,
+        "speed_recommendation": 40,
+        "warning_sign": true
+      },
+      "moderate_curves": {
+        "sections": ["S03", "S04", "S05", "S07"],
+        "radius_m": 100,
+        "bank_angle": 1,
+        "speed_recommendation": 60
+      },
+      "gentle_curves": {
+        "sections": ["S01", "S02", "S08", "S10"],
+        "radius_m": 250,
+        "bank_angle": 0,
+        "speed_recommendation": 80
+      }
+    }
+  }
+}
