@@ -1,0 +1,67 @@
+{
+  "traffic_schedule": {
+    "description": "Dynamic traffic density based on time of day",
+    "hours": [
+      {
+        "hour": 0,
+        "density": 0.1,
+        "time_name": "Midnight",
+        "description": "Very light traffic"
+      },
+      {
+        "hour": 6,
+        "density": 0.4,
+        "time_name": "Early Morning",
+        "description": "Light traffic - commute starts"
+      },
+      {
+        "hour": 8,
+        "density": 0.8,
+        "time_name": "Morning Rush",
+        "description": "Heavy traffic - peak commute"
+      },
+      {
+        "hour": 10,
+        "density": 0.5,
+        "time_name": "Mid-Morning",
+        "description": "Moderate traffic"
+      },
+      {
+        "hour": 12,
+        "density": 0.6,
+        "time_name": "Noon",
+        "description": "Moderate-heavy traffic"
+      },
+      {
+        "hour": 14,
+        "density": 0.5,
+        "time_name": "Afternoon",
+        "description": "Moderate traffic"
+      },
+      {
+        "hour": 16,
+        "density": 0.7,
+        "time_name": "Late Afternoon",
+        "description": "Heavy traffic - secondary peak"
+      },
+      {
+        "hour": 18,
+        "density": 0.6,
+        "time_name": "Evening",
+        "description": "Moderate-heavy traffic"
+      },
+      {
+        "hour": 20,
+        "density": 0.3,
+        "time_name": "Night",
+        "description": "Light traffic"
+      },
+      {
+        "hour": 22,
+        "density": 0.15,
+        "time_name": "Late Night",
+        "description": "Very light traffic"
+      }
+    ]
+  }
+}

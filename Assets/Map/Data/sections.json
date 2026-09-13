@@ -1,0 +1,116 @@
+{
+  "sections": [
+    {
+      "id": "S01",
+      "name": "Mwanza - Misungwi",
+      "start_waypoint": 1,
+      "end_waypoint": 2,
+      "distance_km": 8.5,
+      "terrain_type": "flat_savanna",
+      "vegetation": ["acacia", "grass"],
+      "buildings_count": 12,
+      "scenery_density": "medium"
+    },
+    {
+      "id": "S02",
+      "name": "Misungwi - Shinyanga",
+      "start_waypoint": 2,
+      "end_waypoint": 3,
+      "distance_km": 11.2,
+      "terrain_type": "rolling_hills",
+      "vegetation": ["acacia", "baobab"],
+      "buildings_count": 18,
+      "scenery_density": "medium"
+    },
+    {
+      "id": "S03",
+      "name": "Shinyanga - Tinde",
+      "start_waypoint": 3,
+      "end_waypoint": 4,
+      "distance_km": 9.8,
+      "terrain_type": "rolling",
+      "vegetation": ["acacia", "miombo"],
+      "buildings_count": 8,
+      "scenery_density": "low"
+    },
+    {
+      "id": "S04",
+      "name": "Tinde - Nzega",
+      "start_waypoint": 4,
+      "end_waypoint": 5,
+      "distance_km": 6.5,
+      "terrain_type": "plateau",
+      "vegetation": ["miombo", "grass"],
+      "buildings_count": 6,
+      "scenery_density": "low"
+    },
+    {
+      "id": "S05",
+      "name": "Nzega - Shelui",
+      "start_waypoint": 5,
+      "end_waypoint": 6,
+      "distance_km": 15.3,
+      "terrain_type": "plateau_mountainous",
+      "vegetation": ["miombo", "highland_grass"],
+      "buildings_count": 4,
+      "scenery_density": "low"
+    },
+    {
+      "id": "S06",
+      "name": "Shelui - Singida",
+      "start_waypoint": 6,
+      "end_waypoint": 7,
+      "distance_km": 12.7,
+      "terrain_type": "mountainous",
+      "vegetation": ["miombo", "highland_forest"],
+      "buildings_count": 14,
+      "scenery_density": "medium",
+      "special_features": ["steep_curves"]
+    },
+    {
+      "id": "S07",
+      "name": "Singida - Manyoni",
+      "start_waypoint": 7,
+      "end_waypoint": 8,
+      "distance_km": 18.5,
+      "terrain_type": "rolling_plateau",
+      "vegetation": ["miombo", "acacia"],
+      "buildings_count": 10,
+      "scenery_density": "medium"
+    },
+    {
+      "id": "S08",
+      "name": "Manyoni - Dodoma",
+      "start_waypoint": 8,
+      "end_waypoint": 9,
+      "distance_km": 7.8,
+      "terrain_type": "rolling",
+      "vegetation": ["miombo", "grass"],
+      "buildings_count": 22,
+      "scenery_density": "high"
+    },
+    {
+      "id": "S09",
+      "name": "Dodoma - Morogoro",
+      "start_waypoint": 9,
+      "end_waypoint": 10,
+      "distance_km": 20.4,
+      "terrain_type": "mountainous_descending",
+      "vegetation": ["miombo", "montane_forest"],
+      "buildings_count": 16,
+      "scenery_density": "high",
+      "special_features": ["bridge_morogoro_river"]
+    },
+    {
+      "id": "S10",
+      "name": "Morogoro - Chalinze - Dar es Salaam",
+      "start_waypoint": 10,
+      "end_waypoint": 12,
+      "distance_km": 16.3,
+      "terrain_type": "coastal_plain",
+      "vegetation": ["coconut_palm", "coastal_grass"],
+      "buildings_count": 28,
+      "scenery_density": "high"
+    }
+  ]
+}

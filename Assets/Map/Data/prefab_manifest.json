@@ -1,0 +1,112 @@
+{
+  "prefabs": {
+    "roads": [
+      {
+        "id": "main_trunk_2lane",
+        "name": "Main Trunk Road - 2 Lane",
+        "type": "road",
+        "width_m": 7.5
+      },
+      {
+        "id": "secondary_road_2lane",
+        "name": "Secondary Road - 2 Lane",
+        "type": "road",
+        "width_m": 6.5
+      },
+      {
+        "id": "bridge_medium",
+        "name": "Bridge - Medium Span",
+        "type": "road_accessory",
+        "length_m": 25
+      }
+    ],
+    "vegetation": [
+      {
+        "id": "acacia_tree",
+        "name": "Acacia Tree",
+        "type": "tree",
+        "height_m": 8
+      },
+      {
+        "id": "baobab_tree",
+        "name": "Baobab Tree",
+        "type": "tree",
+        "height_m": 12
+      },
+      {
+        "id": "coconut_palm",
+        "name": "Coconut Palm",
+        "type": "tree",
+        "height_m": 15
+      },
+      {
+        "id": "grass_patch",
+        "name": "Grass Patch",
+        "type": "vegetation",
+        "coverage": "ground"
+      }
+    ],
+    "buildings": [
+      {
+        "id": "bus_station_large",
+        "name": "Large Bus Station",
+        "type": "transport",
+        "capacity": 10
+      },
+      {
+        "id": "petrol_station",
+        "name": "Petrol Station",
+        "type": "service",
+        "capacity": 4
+      },
+      {
+        "id": "market_stall",
+        "name": "Market Stall",
+        "type": "commercial",
+        "capacity": 1
+      },
+      {
+        "id": "school_building",
+        "name": "School Building",
+        "type": "public",
+        "capacity": 5
+      },
+      {
+        "id": "police_post",
+        "name": "Police Post",
+        "type": "public",
+        "capacity": 3
+      },
+      {
+        "id": "residential_house",
+        "name": "Residential House",
+        "type": "residential",
+        "capacity": 1
+      },
+      {
+        "id": "clinic",
+        "name": "Clinic",
+        "type": "medical",
+        "capacity": 3
+      }
+    ],
+    "road_furniture": [
+      {
+        "id": "road_sign_curve",
+        "name": "Curve Warning Sign",
+        "type": "sign"
+      },
+      {
+        "id": "road_mark_center",
+        "name": "Center Line Marking",
+        "type": "marking"
+      },
+      {
+        "id": "km_marker",
+        "name": "Kilometer Marker",
+        "type": "marker"
+      }
+    ]
+  },
+  "total_prefabs": 21
+}

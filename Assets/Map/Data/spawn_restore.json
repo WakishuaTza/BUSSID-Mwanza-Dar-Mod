@@ -1,0 +1,90 @@
+{
+  "spawn_points": [
+    {
+      "id": 1,
+      "name": "Mwanza Bus Station",
+      "waypoint_id": 1,
+      "position": {"x": 151.3, "y": 130.8, "z": 0},
+      "rotation": 0
+    },
+    {
+      "id": 2,
+      "name": "Shinyanga Central",
+      "waypoint_id": 3,
+      "position": {"x": 223.4, "y": 247.3, "z": 0},
+      "rotation": 45
+    },
+    {
+      "id": 3,
+      "name": "Singida Transport Hub",
+      "waypoint_id": 7,
+      "position": {"x": 412.7, "y": 364.7, "z": 0},
+      "rotation": 90
+    },
+    {
+      "id": 4,
+      "name": "Dodoma Main Station",
+      "waypoint_id": 9,
+      "position": {"x": 555.6, "y": 501.6, "z": 0},
+      "rotation": 135
+    },
+    {
+      "id": 5,
+      "name": "Morogoro Depot",
+      "waypoint_id": 10,
+      "position": {"x": 827.7, "y": 569.2, "z": 0},
+      "rotation": 180
+    },
+    {
+      "id": 6,
+      "name": "Dar es Salaam Central",
+      "waypoint_id": 12,
+      "position": {"x": 1048.7, "y": 565.6, "z": 0},
+      "rotation": 225
+    }
+  ],
+  "restore_points": [
+    {
+      "id": 1,
+      "name": "Mwanza Restore",
+      "waypoint_id": 1,
+      "position": {"x": 160, "y": 135, "z": 0}
+    },
+    {
+      "id": 2,
+      "name": "Misungwi Restore",
+      "waypoint_id": 2,
+      "position": {"x": 180, "y": 170, "z": 0}
+    },
+    {
+      "id": 3,
+      "name": "Shinyanga Restore",
+      "waypoint_id": 3,
+      "position": {"x": 230, "y": 250, "z": 0}
+    },
+    {
+      "id": 4,
+      "name": "Singida Restore",
+      "waypoint_id": 7,
+      "position": {"x": 420, "y": 370, "z": 0}
+    },
+    {
+      "id": 5,
+      "name": "Dodoma Restore",
+      "waypoint_id": 9,
+      "position": {"x": 560, "y": 510, "z": 0}
+    },
+    {
+      "id": 6,
+      "name": "Morogoro Restore",
+      "waypoint_id": 10,
+      "position": {"x": 835, "y": 575, "z": 0}
+    },
+    {
+      "id": 7,
+      "name": "Dar es Salaam Restore",
+      "waypoint_id": 12,
+      "position": {"x": 1055, "y": 570, "z": 0}
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "route": "Mwanza-DarEsSalaam",
+  "scale": "1:10",
+  "total_distance_km": 102,
+  "waypoints": [
+    {
+      "id": 1,
+      "name": "Mwanza",
+      "latitude": -2.5,
+      "longitude": 32.9,
+      "elevation_m": 1140,
+      "type": "start_city"
+    },
+    {
+      "id": 2,
+      "name": "Misungwi",
+      "latitude": -2.8,
+      "longitude": 33.5,
+      "elevation_m": 1280,
+      "type": "town"
+    },
+    {
+      "id": 3,
+      "name": "Shinyanga",
+      "latitude": -3.65,
+      "longitude": 33.4,
+      "elevation_m": 1550,
+      "type": "city"
+    },
+    {
+      "id": 4,
+      "name": "Tinde",
+      "latitude": -3.9,
+      "longitude": 32.9,
+      "elevation_m": 1680,
+      "type": "town"
+    },
+    {
+      "id": 5,
+      "name": "Nzega",
+      "latitude": -4.2,
+      "longitude": 32.8,
+      "elevation_m": 1710,
+      "type": "town"
+    },
+    {
+      "id": 6,
+      "name": "Shelui",
+      "latitude": -4.35,
+      "longitude": 34.1,
+      "elevation_m": 1820,
+      "type": "village"
+    },
+    {
+      "id": 7,
+      "name": "Singida",
+      "latitude": -4.8,
+      "longitude": 35.3,
+      "elevation_m": 1610,
+      "type": "city"
+    },
+    {
+      "id": 8,
+      "name": "Manyoni",
+      "latitude": -5.95,
+      "longitude": 35.3,
+      "elevation_m": 1380,
+      "type": "town"
+    },
+    {
+      "id": 9,
+      "name": "Dodoma",
+      "latitude": -6.2,
+      "longitude": 35.7,
+      "elevation_m": 1650,
+      "type": "capital_city"
+    },
+    {
+      "id": 10,
+      "name": "Morogoro",
+      "latitude": -6.8,
+      "longitude": 37.5,
+      "elevation_m": 520,
+      "type": "city"
+    },
+    {
+      "id": 11,
+      "name": "Chalinze",
+      "latitude": -6.7,
+      "longitude": 38.3,
+      "elevation_m": 300,
+      "type": "town"
+    },
+    {
+      "id": 12,
+      "name": "Dar es Salaam",
+      "latitude": -6.8,
+      "longitude": 39.3,
+      "elevation_m": 55,
+      "type": "end_city"
+    }
+  ]
+}

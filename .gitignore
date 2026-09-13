@@ -1,0 +1,29 @@
+# This is used in conjunction with BUSSID Mod Editor
+# Only sync essential project files and data
+
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+*.unitypackage
+
+# IDE
+.idea/
+.vscode/
+*.sln
+*.csproj
+*.user
+
+# OS
+.DS_Store
+Thumbs.db
+
+# BUSSID Mod Editor Output
+*.bussidmod
+exports/
+
+# Sensitive
+.env
+*.key
